@@ -1,0 +1,20 @@
+{
+  "name": "library-backend",
+  "version": "1.0.0",
+  "description": "Backend for library platform",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "supertest": "^6.3.3"
+  }
+}
