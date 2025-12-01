@@ -1,6 +1,6 @@
-// tests/userController.test.js
+
 const request = require('supertest');
-const app = require('../app'); // Adjust if needed
+const app = require('../app');
 const mongoose = require('mongoose');
 const User = require('../models/user');
 
@@ -24,9 +24,5 @@ describe('User Controller', () => {
     expect(res.status).toBe(400);
   });
 
-  // Add more tests for each function: login success/fail, getUser success/fail, etc.
-  // For auth, need to mock or get token first.
-});
 
-// Similar for other controllers: bookController.test.js, reservationController.test.js
-// Each with success and at least one validation failure.
+});
